@@ -1,0 +1,283 @@
+body {
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.container {
+	width: 60%;
+	margin: auto;
+}
+
+.bar {
+	width: 100%;
+	height: 30px;
+}
+
+.bar span {
+	float: right;
+	margin-right: 5px;
+	border-right: 1px solid black;
+	padding: 0 5px;
+}
+
+.bar span:first-child {
+	border: none;
+	padding-right: 30px;
+}
+
+.bar span a {
+	text-decoration: none;
+	color: black;
+}
+
+.white {
+	width: 100%;
+	background-color: white;
+	padding: 10px 20px;
+}
+
+.white .banner {
+	width: 100%;
+	height: 200px;
+	background: url(../img/001.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.menu {
+	width: 100%;
+	height: 50px;
+	background: url(../img/menu_bg.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 15px;
+}
+
+.menu ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	margin: 10px 0;
+
+}
+
+.menu ul li {
+	width: 80px;
+	margin: 5px 10px;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	width: 100%;
+	padding: 0 8px;
+	text-align: center;
+	vertical-align: middle;
+	border-right: 1px solid black;
+	font-weight: 700;
+}
+
+.menu li:last-child a {
+	border: none;
+}
+
+.menu li a:hover {
+	text-decoration: underline;
+	background-color: orange;
+}
+
+#shopa ul,#choosea ul{
+	width: 100px;
+	margin: 5px 0;
+	padding: 0;
+	background-color: #d0dfb8;
+}
+
+#shopa ul li,#choosea ul li{
+	width: 100%;
+	margin: 2px 0;
+}
+
+#shopa ul a,#choosea ul a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 5px 0;
+	border: none;
+}
+
+#shopa ul a:hover,#choosea ul a:hover{
+	background-color: #e5f5cb;
+	text-decoration: underline;
+}
+
+.white .title {
+	width: 100%;
+	background: url(../img/main_bg.jpg) no-repeat;
+	height: 30px;
+	background-size: 94% 100%;
+	line-height: 30px;
+	padding-left: 50px;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 10px 0;
+}
+
+.white .content {
+	display: flex;
+	margin-bottom: 80px;
+}
+
+.content .left {
+	flex: 1;
+}
+
+.content .right {
+	width: 280px;
+}
+
+.content .left .box {
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	border-bottom: 1px dotted lightgray;
+}
+
+.content .left .box:last-child {
+	border: none;
+}
+
+.content .right .box {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.left .box img {
+	width: 180px;
+}
+
+.left .intro {
+	width: 280px;
+}
+
+.left .intro div {
+	margin: 10px 20px;
+	color: orange;
+	font-weight: 700;
+}
+
+.left .intro img {
+	width: 15px;
+}
+
+.left .intro ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px 20px;
+	padding: 0;
+}
+
+.left .intro li {
+	border-right: 1px solid;
+	padding: 0 8px;
+	font-size: 14px;
+}
+
+.left .intro li:last-child {
+	border: none;
+}
+
+.left .intro a {
+	text-decoration: none;
+	color: black;
+}
+
+.left .intro a:hover {
+	text-decoration: underline;
+	color: #FFA500;
+}
+
+.left .btns {
+	display: flex;
+}
+
+.left .btns .dg,
+.left .btns .ck {
+	display: block;
+	width: 70px;
+	height: 25px;
+	margin: 10px 0;
+	background: url(../img/bt_01.jpg) no-repeat;
+	background-size: 100% 85%;
+}
+
+.left .btns .ck {
+	background: url(../img/bt_02.jpg) no-repeat;
+	background-size: 100% 85%;
+}
+
+.right .box {
+	border: 1px solid lightgray;
+	margin: 10px 0;
+}
+
+.right .box .title {
+	background: #000000;
+	padding: 0;
+	margin: 0;
+}
+
+.right .box .title span:first-child {
+	float: left;
+	margin-left: 5px;
+}
+
+.right .box .title span:last-child {
+	float: right;
+}
+
+.right .box a {
+	text-decoration: none;
+	color: black;
+}
+
+.right .box a:hover {
+	text-decoration: underline;
+	color: #FFA500;
+}
+
+.contact {
+	width: 65%;
+	height: 30px;
+	margin: auto;
+	background: url(../img/footer.jpg) no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact span a {
+	text-decoration: none;
+	color: black;
+	padding: 0 5px;
+	border-right: 1px solid black;
+}
+
+.contact span:last-child a {
+	border: none;
+}
+
+.contact span a:hover {
+	text-decoration: underline;
+	color: #FFA500;
+}
+
+.copyright {
+	text-align: center;
+	margin: 10px;
+	font-size: 14px;
+}
